@@ -1,0 +1,23 @@
+{
+  "name": "smstracker",
+  "version": "0.1.0",
+  "description": "SMS Tracker for Trimet TripCheck",
+  "main": "index.js",
+  "scripts": {
+    "test": "track"
+  },
+  "keywords": [
+    "Trimet",
+    "SMS",
+    "Twilio"
+  ],
+  "author": "Eric Mann",
+  "license": "MIT",
+  "dependencies": {
+    "request": "*",
+    "express": "~4.9.4",
+    "body-parser": "~1.8.3",
+    "moment-timezone": "~0.2.2",
+    "twilio": "~1.7.0"
+  }
+}
